@@ -172,12 +172,12 @@ setSKAnimationCallback((t) => {
   targets.forEach((tt) => tt.update(t));
 
   if (mode === "end") {
-    wiggleAnimation(t);
+    wiggleAnimation();
   }
 });
 
 let wiggle = 0;
-function wiggleAnimation(t: number) {
+function wiggleAnimation() {
   wiggle += 0.2;
 
   targets.forEach((t, i) => {
