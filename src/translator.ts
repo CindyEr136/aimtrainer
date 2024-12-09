@@ -1,10 +1,10 @@
-import { distance } from "simplekit/utility";
+import { distance } from "./utility";
 
 // dig into SimpleKit to pull out the simulated "raw" events
 // *** WARNING *** This is not the usual way to import from SimpleKit
-import { FundamentalEvent } from "simplekit/canvas-mode";
+import { FundamentalEvent } from "./canvas-mode";
 
-import { SKEvent, SKMouseEvent } from "simplekit/canvas-mode";
+import { SKEvent, SKMouseEvent } from "./canvas-mode";
 
 export type EventTranslator = {
   update: (fe: FundamentalEvent) => SKEvent | undefined;

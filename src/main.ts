@@ -7,7 +7,7 @@ import {
   setSKAnimationCallback,
   addSKEventTranslator,
   SKKeyboardEvent,
-} from "simplekit/canvas-mode";
+} from "./canvas-mode";
 
 import { Circle } from "./circle";
 import { Line } from "./line";
